@@ -1,6 +1,6 @@
 import { NewFilePattern } from '@/types/file';
 import {
-  renameToCamelCase,
+  renameToUperCase,
   renameToKebabCase,
   renameToSnakeCase,
 } from '@/helpers/string';
@@ -9,8 +9,8 @@ export const getRenamedFileForPattern = (
   pattern: NewFilePattern,
 ) => {
   switch (pattern) {
-    case 'camelCase':
-      return renameToCamelCase(fileName);
+    case 'uppercase':
+      return renameToUperCase(fileName);
     case 'snake_case':
       return renameToKebabCase(fileName);
     case 'kebab-case':

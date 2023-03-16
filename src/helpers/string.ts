@@ -1,11 +1,11 @@
 import {
-  CAMEL_CASE_MISSING_TEXT_ERROR,
+  UPERCASE_MISSING_TEXT_ERROR,
   KEBAB_CASE_MISSING_TEXT_ERROR,
   SNAKE_CASE_MISSING_TEXT_ERROR,
 } from '@/constants/error';
 
-export const renameToCamelCase = (text: string): string => {
-  if (!text) throw new Error(CAMEL_CASE_MISSING_TEXT_ERROR);
+export const renameToUperCase = (text: string): string => {
+  if (!text) throw new Error(UPERCASE_MISSING_TEXT_ERROR);
 
   return text.toUpperCase();
 };

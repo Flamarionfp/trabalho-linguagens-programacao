@@ -16,7 +16,7 @@ import { getRenamedFileForPattern } from './helpers/file';
       type: 'select',
       name: 'pattern',
       message: 'Para qual padrão você deseja renomear?',
-      choices: ['camelCase', 'snake_case', 'kebab-case'],
+      choices: ['uppercase', 'snake_case', 'kebab-case'],
     },
   ]);
 

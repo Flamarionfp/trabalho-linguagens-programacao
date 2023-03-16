@@ -1,1 +1,1 @@
-export type NewFilePattern = 'camelCase' | 'snake_case' | 'kebab-case';
+export type NewFilePattern = 'uppercase' | 'snake_case' | 'kebab-case';
