@@ -38,5 +38,7 @@ import { getRenamedFileForPattern } from './helpers/file';
         (err) => console.log(err),
       );
     }
+  } else {
+    console.log('Nenhum arquivo encontrado para renomear.');
   }
 })();
